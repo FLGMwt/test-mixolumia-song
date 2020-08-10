@@ -1,0 +1,73 @@
+{
+  "info": {
+    "title": "honk",
+    "author": "flgmwt"
+  },
+  "gain": {
+    "master": 1,
+    "drop": 1,
+    "move": 1,
+    "clear": 1,
+    "combo": 1,
+    "loop": 1
+  },
+  "drop_groups": {
+    "drop": "sh_0.ogg"
+  },
+  "move_groups": {
+    "move": [
+      "sh_0.ogg",
+      "sh_1.ogg",
+      "sh_2.ogg",
+      "sh_3.ogg",
+      "sh_4.ogg",
+      "sh_5.ogg"
+    ]
+  },
+  "clear_groups": {
+    "clear": ["sh_0.ogg"]
+  },
+  "combo_groups": {
+    "combo": ["sh_0.ogg", "sh_1.ogg", "sh_2.ogg"]
+  },
+  "progressions": {
+    "prog": [["drop", "move", "clear", "combo"]]
+  },
+  "loops": {
+    "start": {
+      "audio": "tsch_beat_64_0.ogg",
+      "bpm": 140,
+      "length": 32,
+      "progression": "prog",
+      "next": "tsch"
+    },
+
+    "tsch": {
+      "audio": "tsch_beat_64_0.ogg",
+      "bpm": 140,
+      "length": 32,
+      "progression": "prog",
+      "next": "tsch"
+    },
+
+    "middle": {
+      "audio": "tsch_beat_64_0.ogg",
+      "bpm": 140,
+      "length": 32,
+      "progression": "prog",
+      "next": "tsch"
+    },
+
+    "outro": {
+      "audio": "tsch_beat_64_0.ogg",
+      "bpm": 140,
+      "length": 32,
+      "progression": "prog",
+      "next": "tsch"
+    },
+
+    "end": {
+      "audio": "tsch_beat_64_0.ogg"
+    }
+  }
+}
